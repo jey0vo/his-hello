@@ -48,6 +48,13 @@ GET http://localhost:8080/api/medical/hello
 
 预期返回：`Hello，医疗系统初始化成功！`
 
+## 数据库
+
+- 服务：`MySQL80`（随系统自动启动），地址 `localhost:3306`
+- 数据库：`his_db`，字符集 `utf8mb4`，排序规则 `utf8mb4_0900_ai_ci`
+- 账号：`root`（密码由本地保管，不写入仓库）
+- 说明：当前 Hello World 实验未引入数据源；后续实验可直接使用 `his_db`。
+
 ## 环境说明
 
 - `JAVA_HOME` 指向 JDK 17；IDEA 项目 SDK 同为 17。
